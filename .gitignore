@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Source / private files not needed on the public site
+IMG_0048.HEIC.JPG
+古晓燕+算法+简历4.21.pdf
+
+# Unused downloaded illustrations (banner feature not enabled)
+assets/scroll_guoxi.jpg
+assets/scroll_lijie.jpg

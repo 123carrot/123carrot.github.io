@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xiaoyan Gu · Homepage</title>
+  <meta name="description" content="Personal academic homepage of Xiaoyan Gu — research on large language models, LLM-based agents, multimodal understanding and frontier AI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============ Navbar ============ -->
+  <header class="nav">
+    <nav class="nav__inner">
+      <a class="nav__brand" href="#top">Xiaoyan Gu</a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ============ Hero ============ -->
+    <section class="hero">
+      <div class="hero__avatar">
+        <img src="assets/avatar.jpg" alt="Xiaoyan Gu" onerror="this.style.opacity=0" />
+      </div>
+      <div class="hero__info">
+        <h1 class="hero__name">Xiaoyan Gu <span class="hero__name-en">古晓燕</span></h1>
+        <p class="hero__role">M.Eng. Student · LLMs &amp; Agents · Multimodal AI · Human-AI Interaction · Digital Humanities</p>
+        <p class="hero__affil">Data Science and Engineering, Zhejiang University</p>
+        <p class="hero__affil">State Key Laboratory of CAD&amp;CG (ZJUVAI) · Advised by Prof. Wei Chen &amp; Prof. Wei Zhang</p>
+        <p class="hero__intro">
+          I work on <strong>large language models</strong> and <strong>LLM-based agents</strong>,
+          spanning <strong>multimodal understanding</strong>, <strong>reasoning</strong>, and other
+          frontier directions in AI. Building on these, I am also deeply engaged in
+          <strong>human-AI interaction</strong> and <strong>digital humanities</strong> &mdash; exploring how
+          increasingly capable models and autonomous agents can understand, reason about, and
+          collaborate with people in the real world.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section id="about" class="section">
+      <h2 class="section__title">About</h2>
+      <p class="prose">
+        I am a master's student in Data Science and Engineering at Zhejiang University
+        (Sept. 2025 &ndash; Jul. 2028 expected), advised by <strong>Prof. Wei Chen</strong> and
+        <strong>Prof. Wei Zhang</strong> at <strong>ZJUVAI</strong> within the State Key Laboratory of CAD&amp;CG,
+        where I also maintain a close and ongoing collaboration with <strong>Prof. Yifang Wang</strong>.
+        Before joining Zhejiang University, I received my B.Eng. degree in Software Engineering from Chongqing University.
+        My research centers on <strong>large language models</strong> and <strong>LLM-based agents</strong>,
+        with broad interests in <strong>multimodal understanding</strong>, <strong>reasoning</strong>, and
+        emerging frontier directions in AI &mdash; and how these advances translate into real-world,
+        human-centered applications such as human-AI interaction and digital humanities.
+      </p>
+      <p class="prose" style="margin-top:18px">
+        I am currently an Algorithm Intern at Alibaba's Qwen Business Unit, working on multimodal content understanding with LLMs.
+      </p>
+    </section>
+
+    <!-- ============ News ============ -->
+    <section id="news" class="section">
+      <h2 class="section__title">News</h2>
+      <ul class="news">
+        <li><span class="news__date">2026.07</span> Presented our paper at <em>ChinaVis 2026</em> (Jul 19&ndash;22).</li>
+        <li><span class="news__date">2026.06</span> <em>ArtAnno</em> conditionally accepted to <em>UIST 2026</em>.</li>
+        <li><span class="news__date">2026.06</span> Started my internship at Alibaba's <em>Qwen Business Unit</em>.</li>
+      </ul>
+    </section>
+
+    <!-- ============ Education ============ -->
+    <section id="education" class="section">
+      <h2 class="section__title">Education</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__date">2025.09 — 2028.07</div>
+          <div class="timeline__body">
+            <h3>M.Eng. in Data Science and Engineering</h3>
+            <p class="timeline__org">Zhejiang University · State Key Laboratory of CAD&amp;CG (ZJUVAI)</p>
+            <p class="timeline__desc">Advised by Prof. Wei Chen &amp; Prof. Wei Zhang; ongoing collaboration with Prof. Yifang Wang. Research on digital humanities, HCI and multimodal LLMs.</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__date">2021.09 — 2025.07</div>
+          <div class="timeline__body">
+            <h3>B.Eng. in Software Engineering</h3>
+            <p class="timeline__org">Chongqing University</p>
+            <p class="timeline__desc">Worked on visualization research, advised by Prof. Haibo Hu.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Research / Publications ============ -->
+    <section id="research" class="section">
+      <h2 class="section__title">Research</h2>
+      <ul class="pub">
+        <li class="pub__item">
+          <div class="pub__meta">
+            <div class="pub__badges">
+              <span class="badge badge--accent">ACM UIST 2026</span>
+              <span class="badge badge--pending">Conditionally Accepted</span>
+              <span class="badge">Co-First Author</span>
+            </div>
+            <h3 class="pub__title">ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation</h3>
+            <p class="pub__authors"><strong>Xiaoyan Gu</strong><sup>*</sup>, Yifang Wang<sup>*</sup>, Wenqing Zheng, Haozhong Liu, Yixia Zheng, Peiyi Jiang, Wenjie Ning, Wei Zhang<sup>&dagger;</sup>, Wei Chen<sup>&dagger;</sup></p>
+            <p class="pub__venue">ACM UIST 2026 · Jul 2026</p>
+            <p class="pub__desc">ArtAnno proposes a <strong>bidirectional human-AI augmentation</strong> framework, realized as a multi-agent&ndash;driven annotation system. It proactively provides multimodal assistance while continuously learning from annotators&rsquo; interactions &mdash; distilling expert knowledge into reusable skills without adding user burden &mdash; so the system keeps self-evolving to better serve the downstream annotation workflow.</p>
+          </div>
+        </li>
+        <li class="pub__item">
+          <div class="pub__meta">
+            <div class="pub__badges">
+              <span class="badge badge--accent">IEEE TVCG</span>
+              <span class="badge badge--ok">Accepted</span>
+              <span class="badge">Co-First Author</span>
+            </div>
+            <h3 class="pub__title">DAVA: Decoding Art With Visual Analytics Through Feature Modeling and Multi-Agent Collaboration</h3>
+            <p class="pub__authors">Wei Zhang<sup>*</sup>, <strong>Xiaoyan Gu</strong><sup>*</sup>, Hengru Liu, Peiyi Jiang, Xianfeng Peng, Zhenqian Xu, Yifang Wang<sup>&dagger;</sup>, Wei Chen<sup>&dagger;</sup></p>
+            <p class="pub__venue">IEEE TVCG · Mar 2026</p>
+            <p class="pub__links"><a href="https://ieeexplore.ieee.org/document/11354149" target="_blank" rel="noopener">Paper ↗</a></p>
+            <p class="pub__desc">A visual analytics approach that decodes artworks by combining interpretable feature modeling with multi-agent collaboration, helping users explore and reason about visual style and meaning.</p>
+          </div>
+        </li>
+        <li class="pub__item">
+          <div class="pub__meta">
+            <div class="pub__badges">
+              <span class="badge badge--accent">Benchmark</span>
+              <span class="badge badge--pending">Under Review</span>
+              <span class="badge">Co-First Author</span>
+            </div>
+            <h3 class="pub__title">TCPsBench: A Benchmark for Evaluating Interpretation Ability in Traditional Chinese Painting</h3>
+            <p class="pub__authors"><strong>Xiaoyan Gu</strong><sup>*</sup>, Yifang Wang<sup>*</sup>, Wenqing Zheng, Yixia Zheng, Haozhong Liu, Kai Liu, Peiyi Jiang, Tianqi Wang, Junjie Zhu, Linyi Jiang, Wei Zhang<sup>&dagger;</sup>, Wei Chen<sup>&dagger;</sup></p>
+            <p class="pub__venue">Under Review</p>
+            <p class="pub__desc">A benchmark for evaluating how well models interpret Traditional Chinese Painting, probing multimodal understanding and cultural reasoning beyond generic image captioning.</p>
+          </div>
+        </li>
+      </ul>
+      <p class="pub__note"><sup>*</sup> Equal contribution (co-first authors) &nbsp;&middot;&nbsp; <sup>&dagger;</sup> Co-corresponding authors</p>
+    </section>
+
+    <!-- ============ Experience ============ -->
+    <section id="experience" class="section">
+      <h2 class="section__title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__date">2026.06 — Present</div>
+          <div class="timeline__body">
+            <h3>Algorithm Intern</h3>
+            <p class="timeline__org">Alibaba · Qwen Business Unit</p>
+            <p class="timeline__desc">Multimodal content understanding with LLMs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section id="contact" class="section">
+      <h2 class="section__title">Contact</h2>
+      <p class="prose">
+        Feel free to reach out to discuss research, collaborations and opportunities —
+        email <a href="mailto:xiaoyanGu@zju.edu.cn">xiaoyanGu@zju.edu.cn</a>.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    // Scroll reveal
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.section, .hero').forEach((el) => { el.classList.add('reveal'); io.observe(el); });
+  </script>
+</body>
+</html>
